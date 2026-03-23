@@ -20,5 +20,13 @@ This project analyzes customer behavior to predict churn and identify key driver
 - Before day 20, customers who are not churned tend to have higher payment delay days compared to churned customers. Afterwards, churned customers have payment delays just over 10 times than that of not churned customers.
 - Customers who are not churned choose premium or standard subscriptions.
 
-#Churn Prediction
+# Churn Prediction
 - Utilized logistic regression, decision tree, random forest, and k-nearest neighbors models to predict churn based on gender, subscription type, and contract length.
+
+# Key Insights
+- Churn is strongly influenced by customer engagement and experience factors, not just demographics
+- Customers with frequent support interactions and low usage are at significantly higher risk
+- Predictive models enable prioritization of high-risk customers, allowing targeted retention efforts
+- Adjusting prediction thresholds allows the business to balance:
+  - Retention costs
+  - Revenue loss from churn
